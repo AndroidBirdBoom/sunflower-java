@@ -2,6 +2,8 @@ package com.bcqs.sunflower.data;
 
 import java.util.Calendar;
 
+import androidx.annotation.NonNull;
+
 public class Plant {
     private String plantId;
     private String name;
@@ -19,7 +21,14 @@ public class Plant {
         this.imageUrl = imageUrl;
     }
 
-    public boolean shouldBeWatered(Calendar since,Calendar lastWateringDate){
-        return false;
+    public boolean shouldBeWatered(Calendar since, Calendar lastWateringDate) {
+        lastWateringDate.add(Calendar.DAY_OF_YEAR, wateringInterval);
+        return since.compareTo(lastWateringDate) == 1;
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return name;
     }
 }
