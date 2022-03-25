@@ -3,8 +3,15 @@ package com.bcqs.sunflower.data;
 import java.util.Calendar;
 
 import androidx.annotation.NonNull;
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
+@Entity(tableName = "plants")
 public class Plant {
+
+    @PrimaryKey
+    @ColumnInfo(name = "id")
     private String plantId;
     private String name;
     private String description;
