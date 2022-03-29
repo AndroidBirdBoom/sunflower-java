@@ -12,12 +12,12 @@ public class Plant {
 
     @PrimaryKey
     @ColumnInfo(name = "id")
-    private String plantId;
-    private String name;
-    private String description;
-    private int growZoneNumber = 7;
-    private int wateringInterval;
-    private String imageUrl = "";
+    public String plantId;
+    public String name;
+    public String description;
+    public int growZoneNumber = 7;
+    public int wateringInterval;
+    public String imageUrl = "";
 
     public Plant(String plantId, String name, String description, int growZoneNumber, int wateringInterval, String imageUrl) {
         this.plantId = plantId;

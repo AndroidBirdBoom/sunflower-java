@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Sunflower">
+        android:theme="@style/WG.Theme.Sunflower">
         <activity
             android:name=".GardenActivity"
             android:exported="true">
