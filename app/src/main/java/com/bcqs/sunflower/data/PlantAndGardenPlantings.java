@@ -11,17 +11,17 @@ import androidx.room.Relation;
 public class PlantAndGardenPlantings {
 
     @Embedded
-    private Paint paint;
+    private Plant plant;
 
     @Relation(parentColumn = "id",entityColumn = "plant_id")
     private List<GardenPlanting> gardenPlantings = new ArrayList<>();
 
-    public Paint getPaint() {
-        return paint;
+    public Plant getPlant() {
+        return plant;
     }
 
-    public void setPaint(Paint paint) {
-        this.paint = paint;
+    public void setPlant(Plant plant) {
+        this.plant = plant;
     }
 
     public List<GardenPlanting> getGardenPlantings() {

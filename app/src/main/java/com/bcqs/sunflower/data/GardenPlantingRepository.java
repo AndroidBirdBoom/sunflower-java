@@ -22,7 +22,7 @@ public class GardenPlantingRepository {
         return gardenPlantingDao.isPlanted(plantId);
     }
 
-    public List<GardenPlanting> getPlantedGardens(){
-        return gardenPlantingDao.getGardenPlantings();
+    public List<PlantAndGardenPlantings> getPlantedGardens(){
+        return gardenPlantingDao.getPlantedGardens();
     }
 }

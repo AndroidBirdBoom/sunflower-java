@@ -16,11 +16,13 @@
         <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/activity_garden.xml" value="0.1" />
         <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/activity_main.xml" value="0.11820652173913043" />
         <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/fragment_gallery.xml" value="0.11548913043478261" />
-        <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/fragment_garden.xml" value="0.16666666666666666" />
+        <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/fragment_garden.xml" value="0.22" />
         <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/fragment_plant_detail.xml" value="0.22" />
+        <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/fragment_plant_list.xml" value="0.16666666666666666" />
         <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/fragment_view_pager.xml" value="0.12092391304347826" />
-        <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/list_item_garden_planting.xml" value="0.13179347826086957" />
+        <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/list_item_garden_planting.xml" value="0.16666666666666666" />
         <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/list_item_photo.xml" value="0.11548913043478261" />
+        <entry key="..\:/programs/Sunflower2/app/src/main/res/layout/list_item_plant.xml" value="0.3333333333333333" />
         <entry key="..\:/programs/Sunflower2/app/src/main/res/menu/menu_plant_detail.xml" value="0.17135416666666667" />
       </map>
     </option>

@@ -14,14 +14,14 @@ import androidx.room.PrimaryKey;
 public class GardenPlanting {
 
     @ColumnInfo(name = "plant_id")
-    private String plantId;
+    public String plantId;
     @ColumnInfo(name = "plant_date")
-    private Calendar plantDate;
+    public Calendar plantDate;
     @ColumnInfo(name = "last_watering_date")
-    private Calendar lastWateringDate;
+    public Calendar lastWateringDate;
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    private long gardenPlantingId = 0;
+    public long gardenPlantingId = 0;
 
     public GardenPlanting(String plantId) {
         this.plantId = plantId;

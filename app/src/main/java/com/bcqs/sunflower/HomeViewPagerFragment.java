@@ -22,8 +22,6 @@ public class HomeViewPagerFragment extends Fragment {
 
 
     private FragmentViewPagerBinding fragmentViewPagerBinding;
-    private ViewPager2 vp;
-    private TabLayout tab;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

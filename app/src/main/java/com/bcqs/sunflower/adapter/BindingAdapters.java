@@ -7,7 +7,7 @@ import androidx.databinding.BindingAdapter;
 public class BindingAdapters {
 
     @BindingAdapter("isGone")
-    public void bindIsGone(View view,Boolean isGone){
+    public static void bindIsGone(View view,Boolean isGone){
         view.setVisibility(isGone?View.GONE:View.VISIBLE);
     }
 }

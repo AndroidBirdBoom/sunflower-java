@@ -1,6 +1,7 @@
 package com.bcqs.sunflower.adapter;
 
 import com.bcqs.sunflower.GalleryFragment;
+import com.bcqs.sunflower.GardenFragment;
 import com.bcqs.sunflower.PlantListFragment;
 
 import java.util.HashMap;
@@ -18,7 +19,7 @@ public class SunflowerPagerAdapter extends FragmentStateAdapter {
     public SunflowerPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
         tabFragmentsCreators = new HashMap<>();
-        tabFragmentsCreators.put(0,new GalleryFragment());
+        tabFragmentsCreators.put(0,new GardenFragment());
         tabFragmentsCreators.put(1,new PlantListFragment());
     }
 
